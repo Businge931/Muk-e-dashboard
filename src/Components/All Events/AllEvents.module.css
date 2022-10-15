@@ -1,0 +1,40 @@
+.aside {
+  width: 18%;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: translateX(6px);
+}
+.aside_logoContainer {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 1px solid #00c853;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.aside_logoContainer__inner {
+  border: 1px solid #e40d19;
+  background-color: #c2d6cb;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aside_mukLogo {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.aside_heading {
+  color: #e40d19;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+.aside_events {
+  border-top: 1px solid #d3d8da;
+}
