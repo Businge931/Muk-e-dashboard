@@ -1,0 +1,20 @@
+.event {
+  background-color: #c2d6cb;
+  height: 2.4rem;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  color: #376678;
+  font-weight: 800;
+  margin: 1rem 0.5rem;
+  border-radius: 0 8px 8px 0;
+}
+.event_label {
+  border-left: 4px solid #e40d19;
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.event_label.active {
+  border-left: 4px solid #e40d19;
+}
