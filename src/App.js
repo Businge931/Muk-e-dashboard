@@ -3,6 +3,7 @@ import AllEvents from "./Components/All Events/AllEvents";
 import Header from "./Components/Header/Header";
 import EventContent from "./Components/Middle section/EventContent";
 import Notifications from "./Components/Notifications/Notifications.jsx";
+import Updates from "./Components/Updates/Updates";
 import Users from "./Components/Users/Users";
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
             <Notifications />
             <Users />
           </div>
+        </div>
+        <div className={classes.updates}>
+          <Updates />
+          <p className={classes.updates_text}>
+            Mak @100 celebrations happening on thursday
+          </p>
         </div>
       </div>
     </div>
