@@ -1,0 +1,15 @@
+.updates {
+  background-color: #e40d19;
+  border-radius: 18px 0;
+  width: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.updates_text {
+  color: white;
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  letter-spacing: 1.4px;
+}
