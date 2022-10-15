@@ -1,0 +1,37 @@
+.users {
+  display: flex;
+  align-items: center;
+  width: 37%;
+  height: 3.5rem;
+  /* margin-left: 2rem; */
+  background-color: #0e653238;
+  border-radius: 1rem;
+}
+.users_heading {
+  margin: 1rem;
+  font-weight: 900;
+}
+.users_container {
+  display: flex;
+  /* position: relative; */
+}
+.user {
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  border: 1px solid #00c853;
+  /* position: absolute;
+  transform: translate(5px, 0); */
+}
+.user_picture {
+  height: 2.7rem;
+  width: 2.7rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.users_number {
+  color: black;
+  font-weight: 800;
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
