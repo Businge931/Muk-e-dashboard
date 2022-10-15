@@ -19,12 +19,12 @@ const Users = () => {
         <div className={classes.user}>
           <img src={profile} alt="user" className={classes.user_picture} />
         </div>
-        <div className={classes.user}>
+        {/* <div className={classes.user}>
           <img src={profile} alt="user" className={classes.user_picture} />
         </div>
         <div className={classes.user}>
           <img src={profile} alt="user" className={classes.user_picture} />
-        </div>
+        </div> */}
       </div>
       <div className={classes.users_number}>
         <p>
