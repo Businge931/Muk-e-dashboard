@@ -9,7 +9,6 @@
 }
 .notifications_scroll {
   animation: autoScroll linear infinite 50s;
-  /* animation-delay: 1s; */
 }
 @keyframes autoScroll {
   0% {
