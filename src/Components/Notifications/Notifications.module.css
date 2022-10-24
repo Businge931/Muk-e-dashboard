@@ -8,7 +8,7 @@
   overflow-y: hidden;
 }
 .notifications_scroll {
-  animation: autoScroll linear infinite 200s;
+  animation: autoScroll linear infinite 100s;
   /* animation-delay: 1s; */
 }
 @keyframes autoScroll {
