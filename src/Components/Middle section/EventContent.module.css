@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: autoscroll infinite linear 50s;
+  animation: autoscroll infinite linear 30s;
 }
 @keyframes autoscroll {
   0% {
