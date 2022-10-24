@@ -1,10 +1,9 @@
 import React from "react";
 import classes from "./Lecture.module.css";
-// import electronics from "../../Images/electronics 1.png";
 import { MdLocationOn } from "react-icons/md";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
-const Lecture = ({ name, image, status, location }) => {
+const Lecture = ({ name, image, status, location, time }) => {
   const statusStyle =
     status === "ongoing"
       ? classes.ongoing
@@ -53,7 +52,7 @@ const Lecture = ({ name, image, status, location }) => {
                 className={`${classes.status_date__icon} ${statusStyle}`}
               />
             </span>
-            Oct 9, 2022
+            {time}
           </p>
         </div>
       </div>

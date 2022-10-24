@@ -2,16 +2,35 @@
   height: 21rem;
   background-color: #0e653238;
   border-radius: 1rem;
-  z-index: 2;
-  overflow: hidden;
+  overflow-y: hidden;
 }
-/* .notifications_scroll {
-  overflow-y: scroll;
-  height: 100%;
-  z-index: 1;
-} */
+.scroll {
+  overflow-y: hidden;
+}
+.notifications_scroll {
+  animation: autoScroll linear infinite 200s;
+  /* animation-delay: 1s; */
+}
+@keyframes autoScroll {
+  0% {
+    transform: translateY(100%);
+  }
+  25% {
+    transform: translateY(50%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  75% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
 .notification_heading {
-  margin: 1rem;
+  margin: 1rem 1rem 0 1rem;
+  border-bottom: 1px solid #d3d8da;
 }
 .notification {
   width: 90%;

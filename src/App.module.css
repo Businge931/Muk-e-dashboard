@@ -34,9 +34,40 @@ body {
   height: 3.5rem;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  overflow: hidden;
+  box-shadow: -5px -2px 12px rgba(0, 0, 0, 0.15);
+}
+.outerScroll {
+  overflow-x: hidden;
+  width: 100%;
+}
+.scroll {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  animation: up infinite linear 30s;
 }
 .updates_text {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  color: #376678;
+}
+@keyframes up {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  75% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }

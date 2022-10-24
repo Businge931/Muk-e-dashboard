@@ -1,12 +1,12 @@
 .event {
   background-color: #c2d6cb;
   height: 2.4rem;
-  width: 88%;
+  width: 94%;
   display: flex;
   align-items: center;
   color: #376678;
   font-weight: 800;
-  margin: 1rem 0.5rem;
+  margin: 1rem 0;
   border-radius: 0 8px 8px 0;
 }
 .event_label {
