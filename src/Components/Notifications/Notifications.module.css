@@ -69,11 +69,22 @@
   border-radius: 50%;
   border: 2px solid white;
 }
-.notification_sender__name {
+.sender {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding-left: 0.5rem;
+}
+.notification_sender__name {
   color: #ffffffb5;
   font-weight: 800;
   /* font-size: 1.2rem; */
+}
+.notification_sender__department {
+  color: #ffffffb5;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .notification_time {
   text-align: end;
