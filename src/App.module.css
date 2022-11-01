@@ -46,16 +46,16 @@ body {
 .scroll {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   animation: up infinite linear 30s;
 }
 .updates_text {
   font-weight: 700;
   font-size: 0.9rem;
   color: #376678;
-  padding: 0 1rem;
+  /* padding: 0 5rem; */
 }
-@keyframes up {
+/* @keyframes up {
   0% {
     transform: translateX(-100%);
   }
@@ -71,4 +71,4 @@ body {
   100% {
     transform: translateX(100%);
   }
-}
+} */
