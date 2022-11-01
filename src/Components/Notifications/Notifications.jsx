@@ -49,29 +49,33 @@ const Notifications = () => {
       <h2 className={classes.notification_heading}>Notifications</h2>
       <div className={classes.scroll}>
         <div className={classes.notifications_scroll}>
-          {notifications.map((notification) => (
-            <div className={classes.notification} key={notification.content}>
-              <p className={classes.notification_message}>
-                {notification.content}
-              </p>
+          {notifications
+            .map((notification) => (
+              <div className={classes.notification} key={notification.content}>
+                <p className={classes.notification_message}>
+                  {notification.content}
+                </p>
 
-              <div className={classes.notification_sender}>
-                <div className={classes.notification_sender__}>
-                  <div className={classes.notification_sender__imageHolder}>
-                    <img
-                      src={notification.senderImageUrl}
-                      alt="notification_sender__image"
-                      className={classes.notification_sender__image}
-                    />
+                <div className={classes.notification_sender}>
+                  <div className={classes.notification_sender__}>
+                    <div className={classes.notification_sender__imageHolder}>
+                      <img
+                        src={notification.senderImageUrl}
+                        alt="notification_sender__image"
+                        className={classes.notification_sender__image}
+                      />
+                    </div>
+                    <p className={classes.notification_sender__name}>
+                      {notification.sender}
+                    </p>
                   </div>
-                  <p className={classes.notification_sender__name}>
-                    {notification.sender}
+                  <p className={classes.notification_time}>
+                    {notification.time}
                   </p>
                 </div>
-                <p className={classes.notification_time}>{notification.time}</p>
               </div>
-            </div>
-          ))}
+            ))
+            .reverse()}
         </div>
       </div>
     </div>
