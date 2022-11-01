@@ -65,9 +65,14 @@ const Notifications = () => {
                         className={classes.notification_sender__image}
                       />
                     </div>
-                    <p className={classes.notification_sender__name}>
-                      {notification.sender}
-                    </p>
+                    <div className={classes.sender}>
+                      <p className={classes.notification_sender__name}>
+                        {notification.sender}
+                      </p>
+                      <p className={classes.notification_sender__department}>
+                        {notification.department}
+                      </p>
+                    </div>
                   </div>
                   <p className={classes.notification_time}>
                     {notification.time}
