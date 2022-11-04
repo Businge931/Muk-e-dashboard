@@ -2,7 +2,7 @@
   height: 21rem;
   background-color: #0e653238;
   border-radius: 1rem;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 .scroll {
   overflow-y: hidden;
